@@ -25,5 +25,16 @@ The test data will be in the following format:
 1  Both China and the Philippines flexed their muscles on Wednesday.   31  37  flexed  10  10
 In the test input format, only the first seven columns of the train format are given.
 
-## Classifier and Results
-The Random Forest classifier was used to estimate the probability of complexity with an mean absolut error of approximately 0.119
+## Model and Results
+The Random Forest Regressor was used to train the model, applying 10 estimators.
+
+The following features were used:
+- Character N-grams (2 and 4 grams)
+- Word frequency in Political News dump
+- Binary feature for digit presence in the target multi word expression
+- Word Length
+- Syllable count
+- Binary feature explaining if the target word is a multi word expression or not
+- Number of characters
+
+Results: The probability estimation has a mean absolut error (MAE) of approximately 0.119.
