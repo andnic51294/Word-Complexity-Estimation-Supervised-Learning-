@@ -1,4 +1,4 @@
-# Word-Complexity-Estimation-Supervised-Learning-
+# Word Complexity Estimation-Supervised-Learning
 Estimating the probability of a target word being complex.The training set consists of 14,002 labeled examples. The test set consists of another 1,764 examples.
 
 ## The training data will be provided in the following format:
